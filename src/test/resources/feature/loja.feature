@@ -1,7 +1,7 @@
 #language: pt
 #Author: Bruno
 #Date: 20/05/2021
-#verison: 2.0
+#version: 2.0
 
 Funcionalidade: Compras
 
