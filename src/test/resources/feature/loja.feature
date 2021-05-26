@@ -18,9 +18,9 @@ Então verifico se <quantidade> de produto foi adicionado ao carrinho com sucess
 
 
 Exemplos:
-|	  	roupa			    | tamanho | quantidade |
-| vestido estampado |  L      |     2      |
-| vestido						|	 L			|		  3		 	 |
+|  roupa	    | tamanho | quantidade |
+| vestido estampado |    L    |     2      |
+| vestido	    |	 L    |	    3 	   |
 
 Esquema do Cenario: verificar valor do frete
 
@@ -31,7 +31,7 @@ E clico em "adicionar ao carrinho"
 Então verifico se o valor do frete é "$2.00"
 
 Exemplos:
-|	  	roupa			    | tamanho | quantidade|
+|  roupa	    | tamanho | quantidade|
 | vestido estampado |  L      |     2     |
 
 @esse
@@ -51,7 +51,7 @@ E preenche o campo Telefone com <telefone>
 
 
 Exemplos:
-| nome      | sobre nome   | E-mail			  			 | senha    | dia | mes 				| ano		 | nome      | sobre nome   | endereço   | cidade   | estado     | Cep     | telefone   		 |
+| nome      | sobre nome   | E-mail		 | senha    | dia | mes 	| ano	 | nome      | sobre nome   | endereço   | cidade   | estado     | Cep     | telefone         |
 | "Bruno"   | "Silva"      | "filho@hotmail.com" | "12345"  | "2" | "September" | "1991" | "Bruno"   | "Silva"      | "rua 25th" | "Denver" | "colorado" | "80207" | "011 99999-2222" | 
 | "Gabriel" | "Silva"      | "jo@gmail.com"      | "12345"  | "2" | "September" | "1991" | "Gabriel" | "Silva"      | "rua 25th" | "Denver" | "colorado" | "80207" | "011 99999-2222" | 
 
