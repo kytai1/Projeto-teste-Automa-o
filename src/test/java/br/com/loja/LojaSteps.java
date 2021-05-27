@@ -44,7 +44,7 @@ public class LojaSteps {
 
 	@Dado("^que estou no site \"([^\"]*)\"$")
 	public void queEstouNoSite(String arg1) throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bruno Silva\\eclipse-workspace\\br.com.g1\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bruno Silva\\eclipse-workspace\\br.com.loja\\driver\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.get(arg1);
 	}
@@ -66,7 +66,7 @@ public class LojaSteps {
 		if (quantidade == 2) {
 			driver.findElement(By.xpath("//i[@class='icon-plus']")).click();
 			
-		}else if (quantidade == 3) {
+	}	else if (quantidade == 3) {
 				driver.findElement(By.xpath("//i[@class='icon-plus']")).click();
 				Thread.sleep(1000);
 				driver.findElement(By.xpath("//i[@class='icon-plus']")).click();}
